@@ -7,9 +7,9 @@ fn ackermann(m: usize , n: usize) -> usize {
 }
 fn main() {
     println!("____+____Ackermann function calculation:____+____");
-    for m in 0..5 {
+    for m in 0..10 {
         for n in 0..(16-m) {
-            println!("ackermann({}, {})",m,n,ackermann(m, n));
+            println!("ackermann({}, {})={}",m,n,ackermann(m, n));
         }
     }
 }
